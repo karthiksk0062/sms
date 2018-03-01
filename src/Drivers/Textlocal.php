@@ -53,7 +53,7 @@ class Textlocal extends MasterDriver
 
         $data = $this->getResponseData($response);
 
-        return (object) array_merge($data, ["status" => true]);
+        return (object) $data;
     }
 
     /**
